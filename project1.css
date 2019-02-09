@@ -1,0 +1,125 @@
+body {
+	background-color: #4A875B;
+	overflow: hidden;
+	margin: auto;
+}
+
+div#title{
+	background-color: #D4FADF;
+	width: 400px;
+	margin: auto;
+	height: 40px;
+	top: 0px;
+	padding: 5px;
+	padding-bottom: 40px;
+	border-radius: 0px 0px 25px 25px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.6em;
+	color: #364A35;
+	font-weight: normal;
+	position: fixed;
+	top: 10px;
+	padding-left: 120px;
+}
+
+span {
+	font-weight: bold;
+}
+
+div#topwater{
+	height: 150px;
+	background-image: url("TOP Water Image url here.jpg");
+}
+div#topwater1 img{
+	height: 60px;
+	position: relative;
+	top: 25px;
+}
+
+img#WaterItem1{
+	left: 30px;
+	/* we can move the random item here across the grid here using left,right and other tools*/
+}
+
+div#bridge {
+	height: 150px;
+	background-image: url("Bridge background Image Url here.jpg");
+	background-size: cover;
+}
+#bridge img{
+	height: 50px;
+	position: fixed;
+}
+
+img.frog{
+	background-color: white;
+	display: inline-block;
+}
+img.frog:hover{
+	opacity: .5;
+	/* frog will highlight when you hover over it*/
+}
+div#bridge_block {
+	position: fixed;
+}
+div#bridge_block1{
+	padding-left: 100px;
+}
+
+div#bridge_block2{
+	padding-left: 400px;
+}
+
+div#bridge_block3{
+	padding-left: 700px;
+}
+div#bridge_block4{
+	padding-left: 1000px;
+}
+
+div#bottomwater {
+	background-image: url("Bottom water Background Image url here.jpg");
+	height: 150px;
+	width: 1400px;
+	background-size: cover;
+}
+div#bottomwater1 img{
+	height: 60px;
+	position: relative;
+	top: 25px;
+}
+
+img#WaterItem2 {
+	left: 5px;
+	/* we can move the image around changing attributes in this block*/
+}
+
+div#grass {
+	margin-top: 22px;
+	width: 1400px;
+	height: 150px;
+	background-image: url("Grass Background Image url here.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+img#bush1{
+	position: relative;
+	left: 20px;
+}
+
+img#bush2{
+	position: relative;
+	left: 600px;
+	top: 100px;
+}
+
+img#bush3{
+	position: relative:;
+	left: 900px;
+	top: 50px;
+	/*As many as you want can be put in these tags. All positioned in these blocks */
+}
